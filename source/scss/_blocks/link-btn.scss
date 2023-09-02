@@ -1,0 +1,31 @@
+/* .link-btn */
+.link-btn {
+    font-family: 'OpenSans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    background-color: #000000;
+    padding: 9px 22px;
+    transition:  0.4s;
+    &:hover {
+        background-color: #C29974;
+        border: none;
+        cursor: pointer;
+    }
+    &:active {
+        background-color:#CFAF91;
+    }
+    &:disabled {
+        background-color: #C1C1C1;
+        color: #E1E1E1;
+      }
+}
+
+.options__button,
+.link-btn:disabled {
+    background-color:#C7C1C1;
+}
