@@ -80,7 +80,7 @@ $transition: 0.4s;
         margin-top: 42px;
       }
     }
-  
+
        &__img {
         position:absolute;
         bottom: 10%;
@@ -90,8 +90,8 @@ $transition: 0.4s;
       @media (max-width: $media-tablet) {
         right: 1%;
         // bottom: 10%;
-        margin: 0 0;  
-        height: 286px;   
+        margin: 0 0;
+        height: 286px;
       }
       @media (max-width: 670px) {
         height: 218px;
@@ -125,7 +125,7 @@ $transition: 0.4s;
       margin-left: 0px;
     }
     &__header {
-       display: none; 
+       display: none;
     }
    &__slider {
        padding: 18px 44px 0 28px;
@@ -184,7 +184,7 @@ $transition: 0.4s;
        height: 3px;
        &:hover {
            background-color: $brownC;
-            }  
+            }
     }
 }
 
@@ -225,7 +225,7 @@ $transition: 0.4s;
     @media (max-width: $media-mobile-landscape) {
       font-size: 36px;
       line-height: 40px;
-      margin-top: -263px;
+      // margin-top: -263px;
     }
     @media (max-width: $media-mobile) {
       font-size: 36px;
@@ -240,28 +240,28 @@ $transition: 0.4s;
    font-weight: 400;
    font-size: 20px;
    line-height: 26px;
-   padding-bottom: 21px; 
+   padding-bottom: 21px;
 
    @media (max-width: $media-mobile) {
     font-size: 18px;
     line-height: 24px;
     margin: -7px 0;
-  }     
+  }
 }
 &__btn {
   @media (max-width: $media-mobile) {
     // margin-left: 10px;
     // width: 161px;
-  } 
+  }
 }
 }
 
 
 input[name="button"] {
     visibility: hidden;
-}  
-     
- 
+}
+
+
  .navigation {
     max-width: 680px;
     margin: 0 0;
@@ -274,11 +274,11 @@ input[name="button"] {
       line-height: 19px;
       letter-spacing: 0em;
       text-align: left;
-    } 
+    }
     @media (max-width: $media-mobile) {
       padding-top: 22px;
       margin-left: 17px;
-    } 
+    }
     &__button {
         border: none;
         background-color: transparent;
@@ -287,7 +287,7 @@ input[name="button"] {
         @media (max-width: $media-mobile) {
           left: 19px;
           top: 10px;
-        } 
+        }
     }
     &__button:before {
         content: '';
@@ -298,12 +298,12 @@ input[name="button"] {
         display: inline-block;
         text-align: center;
         background-position: center;
-        background-color: rgba(112, 187, 220, 0.2);   
-    } 
+        background-color: rgba(112, 187, 220, 0.2);
+    }
     &__button--prev:before {
         background-image: url(../img/icons/blue-arrow-left.svg);
         transition: top 0.4s ease 1s;
-    } 
+    }
     &__button--prev:hover:before {
             background-image: url(../img/icons/arrow-hover.svg);
             transform: scaleX(-1);
@@ -321,7 +321,7 @@ input[name="button"] {
     }
     &__button--next:active:before {
         background-image: url(../img/icons/arrow-active.svg);
-    }   
+    }
     &__text {
         // max-width: 600px;
         padding-left: 14px;
@@ -343,16 +343,13 @@ input[name="button"] {
      @media (max-width: $media-tablet) {
       align-items: left;
         }
-        @media (max-width: 600px) {
-          flex-wrap: wrap;
-         }
         @media (max-width: $media-mobile-landscape) {
          flex-wrap: wrap;
         }
       @media (max-width: $media-mobile) {
       flex-direction: column;
       margin-top: 79px;
-   
+
       }
      &__img {
         margin-left: 0;
@@ -369,7 +366,7 @@ input[name="button"] {
           @media (max-width: $media-mobile) {
             // width: 100%;
             padding-left: 21px;
-           
+
             }
     }
     &__info {
@@ -380,14 +377,10 @@ input[name="button"] {
           // min-width: 398px;
           margin-top: -4px;
           margin-left: 14px;
-          width: 50%;
           }
         @media (max-width: $media-mobile-landscape) {
             margin-top: 182px;
          }
-         @media (max-width: 600px) {
-          margin-top: 329px;
-       }
         @media (max-width: $media-mobile) {
           width: 93%;
         margin-top: 143px;
@@ -420,7 +413,7 @@ input[name="button"] {
         // width: 100%;
         height: 0;
         margin-top: 10px;
-        
+
         }
     }
     &__text {
@@ -508,7 +501,7 @@ input[name="button"] {
     //  width: 543px;
      background-color: #E1F0F7;
      height: 100%;
-  
+
       // width: 541px;
       margin: 0 0;
       margin-bottom: 35px;
@@ -570,8 +563,8 @@ input[name="button"] {
         margin-left: 14px;
         margin-top: 1px;
       }
-   
-        
+
+
     }
  }
  .buy-now__header, .contacts__header{
@@ -601,7 +594,7 @@ input[name="button"] {
       margin: 0 0 0 0px;
     }
     &__header {
-        margin-bottom: -22px; 
+        margin-bottom: -22px;
         margin-left: 58px;
         @media (max-width: $media-tablet) {
           margin-left: 18px;
@@ -651,7 +644,7 @@ input[name="button"] {
         }
     }
  }
-// // scroll 
+// // scroll
 .scroll-off {
 	position: fixed;
 	left: 30px;
